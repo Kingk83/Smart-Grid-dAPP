@@ -1,0 +1,24 @@
+{
+  "name": "smart-grid-dapp",
+  "version": "1.0.0",
+  "description": "A decentralized application for smart grid management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingk83/Smart-Grid-dAPP.git"
+  },
+  "keywords": [
+    "smart-grid",
+    "blockchain",
+    "dapp"
+  ],
+  "author": "Gridchain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kingk83/Smart-Grid-dAPP/issues"
+  },
+  "homepage": "https://github.com/Kingk83/Smart-Grid-dAPP#readme"
+}
