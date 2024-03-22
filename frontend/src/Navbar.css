@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4caf50; /* Green background */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .balance-info {
+    text-align: center;
+  }
+  
+  .balance-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block; /* Makes it go on a new line */
+  }
+  
+  .balance-label {
+    font-size: 1rem;
+    display: block; /* Makes it go on a new line */
+  }
+  
