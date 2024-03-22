@@ -11,16 +11,16 @@ contract EnergyCertificate is ERC721Enumerable, Ownable {
 
     constructor() ERC721("RenewableEnergyCertificate", "REC") {}
 
-    function mintCertificate(address to, uint256 amount, string memory tokenURI) public onlyOwner {
+    function mintCertificate(address to, uint256 amount, string memory newTokenURI) public onlyOwner {
         uint256 tokenId = _nextTokenId++;
         _mint(to, tokenId);
         certificateAmount[tokenId] = amount;
-        _setTokenURI(tokenId, tokenURI);
+        _setTokenURI(tokenId, newTokenURI);
         // Emit an event or further logic here if needed
     }
 
-    function _setTokenURI(uint256 tokenId, string memory _tokenURI) internal {
-        _tokenURIs[tokenId] = _tokenURI;
+    function _setTokenURI(uint256 tokenId, string memory newTokenURI) internal {
+        _tokenURIs[tokenId] = newTokenURI;
     }
 
     function tokenURI(uint256 tokenId) public view override returns (string memory) {

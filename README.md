@@ -1,2 +1,2 @@
-# Smart-Grid-dAPP
+# smart-grid-dapp
 Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces in smart grids.
