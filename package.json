@@ -2,40 +2,24 @@
   "name": "smart-grid-dapp",
   "version": "1.0.0",
   "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces in smart grids.",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "compile": "hardhat compile",
-    "test": "hardhat test",
-    "deploy": "hardhat run scripts/deploy.js --network goerli"
+    "test": "npx hardhat test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kingk83/smart-grid-dapp.git"
+    "url": "//github.com/Kingk83/smart-grid-dapp/tree/main"
   },
-  "bugs": {
-    "url": "https://github.com/Kingk83/smart-grid-dapp/issues"
-  },
-  "homepage": "https://github.com/Kingk83/smart-grid-dapp#readme",
   "keywords": [
+    "smart",
     "blockchain",
-    "dapp",
-    "smart-grid",
+    "grid",
     "ethereum",
     "solidity"
   ],
-  "author": "Stephen Rowe <stephenrowe27@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.4",
-    "@nomiclabs/hardhat-etherscan": "^3.0.0",
-    "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "@openzeppelin/contracts": "^4.4.1",
-    "chai": "^4.3.4",
-    "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.5.3",
-    "ganache-cli": "^6.12.2",
-    "hardhat": "^2.10.1"
-  },
-  "dependencies": {
-    "dotenv": "^16.4.5"
-  }
-}
+  "author": "Stephen Rowe",
+  "license": "MIT"
+  
